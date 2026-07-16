@@ -159,3 +159,7 @@ I create structured, user-focused, and accessible technical documentation that s
 This repository is provided for portfolio and demonstration purposes.
 
 All documentation is © Robert Mendoza unless otherwise noted.
+=======
+# Technical-writing-portfolio
+Improving system adoption by transforming complex technical details into accessible, easy-to-understand guides for all users.
+>>>>>>> 59697dd3ba36b19b3a3b1f2eaa09f2ecbe792328
