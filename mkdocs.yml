@@ -1,7 +1,11 @@
 site_name: Robert Mendoza | Technical Documentation Portfolio
-site_description: Technical Documentation Portfolio showcasing user guides, process documentation, SOPs, technical specifications, and accessibility-focused documentation.
+site_description: Technical Documentation Portfolio showcasing user guides, process documentation, standard operating procedures, technical specifications, and accessibility-focused documentation.
 site_author: Robert Mendoza
-site_url: https://yourusername.github.io/technical-documentation/
+site_url: https://robert-mendoza.github.io/Technical-writing-portfolio/
+
+repo_url: https://github.com/robert-mendoza/Technical-writing-portfolio
+repo_name: robert-mendoza/Technical-writing-portfolio
+edit_uri: ""
 
 docs_dir: docs
 site_dir: site
@@ -9,6 +13,7 @@ site_dir: site
 theme:
   name: material
   language: en
+
   features:
     - navigation.tabs
     - navigation.sections
@@ -27,6 +32,18 @@ theme:
     - scheme: default
       primary: blue
       accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  copyright: Copyright © 2026 Robert Mendoza
 
 plugins:
   - search
@@ -54,22 +71,32 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/robert-mendoza
+
+    # Replace with your LinkedIn profile URL
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rbmendoza/
+
 nav:
   - Home: index.md
-  - About: about.md
 
-  - Documentation:
+  - About:
+      - About Me: about.md
+      - Contact: contact.md
+
+  - Documentation Portfolio:
       - User Guide: user-guide.md
-      - Process Documentation: process-documentation.md
       - Standard Operating Procedure: sop-documentation.md
+      - Process Documentation: process-documentation.md
       - Technical Specification: technical-documentation.md
 
-  - Standards:
+  - Documentation Standards:
       - Documentation Workflow: documentation-workflow.md
       - Documentation Standards: documentation-standards.md
 
   - Resources:
       - Downloads: download.md
       - Change Log: changelog.md
-
-  - Contact: contact.md
