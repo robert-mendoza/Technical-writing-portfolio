@@ -1,0 +1,1863 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Technical Documentation Portfolio showcasing user guides, process documentation, SOPs, technical specifications, and accessibility-focused documentation.">
+      
+      
+        <meta name="author" content="Robert Mendoza">
+      
+      
+        <link rel="canonical" href="https://yourusername.github.io/technical-documentation/technical-documentation/">
+      
+      
+        <link rel="prev" href="../sop-documentation/">
+      
+      
+        <link rel="next" href="../documentation-workflow/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Technical Specification - Robert Mendoza | Technical Documentation Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-purpose" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Robert Mendoza | Technical Documentation Portfolio" class="md-header__button md-logo" aria-label="Robert Mendoza | Technical Documentation Portfolio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Robert Mendoza | Technical Documentation Portfolio
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Technical Specification
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../user-guide/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../documentation-workflow/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Standards
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../download/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contact/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contact
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Robert Mendoza | Technical Documentation Portfolio" class="md-nav__button md-logo" aria-label="Robert Mendoza | Technical Documentation Portfolio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Robert Mendoza | Technical Documentation Portfolio
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../process-documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sop-documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standard Operating Procedure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standards
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Standards
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentation-workflow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation Workflow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentation-standards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation Standards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Downloads
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Change Log
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><strong>NVDA + Visual Studio Code</strong></p>
+<p><strong>Accessibility Engineering Specification</strong></p>
+<hr />
+<p><strong>Field</strong>             <strong>Value</strong></p>
+<hr />
+<p>Document Version      1.0 --- Production Release</p>
+<p>Status                Reviewed and Approved</p>
+<p>Tested NVDA Version   2023.3.x (minimum) --- verify before deployment</p>
+<p>Tested VS Code        1.85.x or later
+  Version               </p>
+<p>Operating System      Windows 11 (22H2 or later)</p>
+<p>Review Date           May 30, 2025 (see Appendix C for full revision
+                        history)</p>
+<p>Audience              Blind and low-vision software developers</p>
+<p>Scope                 Keyboard-only VS Code development with NVDA
+                        screen reader</p>
+<hr />
+<hr />
+<p><strong>⚠        This specification is version-sensitive. NVDA behavior in VS
+  VERSION    Code differs across NVDA releases. Always verify the NVDA
+  NOTICE</strong>   and VS Code versions in your environment match the tested
+             versions listed above. Version mismatches may cause role
+             misreporting, focus tracking regressions, or degraded
+             terminal accessibility --- see Section 4.1 for specific risk
+             details per component. Report discrepancies using the change
+             control process in Appendix C.</p>
+<hr />
+<h1 id="1-purpose">1. Purpose<a class="headerlink" href="#1-purpose" title="Permanent link">&para;</a></h1>
+<p>This document defines a keyboard-driven development environment using
+NVDA and Visual Studio Code. It specifies interaction rules,
+accessibility behavior, and workflow patterns for screen
+reader--assisted software development.</p>
+<p>This is a production-grade specification. It is intended to be
+operationally complete: a developer must be able to configure, verify,
+and use this environment using only the information in this document.</p>
+<h1 id="2-system-architecture">2. System Architecture<a class="headerlink" href="#2-system-architecture" title="Permanent link">&para;</a></h1>
+<h2 id="21-interaction-model-layers">2.1 Interaction Model Layers<a class="headerlink" href="#21-interaction-model-layers" title="Permanent link">&para;</a></h2>
+<h3 id="layer-1-input-layer">Layer 1 --- Input Layer<a class="headerlink" href="#layer-1-input-layer" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Keyboard events drive all interactions. No mouse dependency.</p>
+</li>
+<li>
+<p>Navigation keys, command shortcuts, and editor commands are the
+  primary input mechanisms.</p>
+</li>
+</ul>
+<h3 id="layer-2-application-layer-vs-code">Layer 2 --- Application Layer (VS Code)<a class="headerlink" href="#layer-2-application-layer-vs-code" title="Permanent link">&para;</a></h3>
+<p><strong>Responsible for:</strong></p>
+<ul>
+<li>
+<p>Focus management, editor state control, panel switching</p>
+</li>
+<li>
+<p>File system interaction, terminal execution, source control operations</p>
+</li>
+</ul>
+<p><strong>Primary UI contexts:</strong></p>
+<ul>
+<li>Editor, Explorer view, Terminal, Problems panel, Source Control view</li>
+</ul>
+<h3 id="layer-3-accessibility-layer-nvda">Layer 3 --- Accessibility Layer (NVDA)<a class="headerlink" href="#layer-3-accessibility-layer-nvda" title="Permanent link">&para;</a></h3>
+<p><strong>Responsible for:</strong></p>
+<ul>
+<li>
+<p>Focus announcement, UI role identification, text output interpretation</p>
+</li>
+<li>
+<p>Navigation feedback, error and state reporting</p>
+</li>
+</ul>
+<p><strong>Core mechanisms:</strong></p>
+<ul>
+<li>Focus tracking, speech output queue, object navigation, review cursor
+  system</li>
+</ul>
+<h3 id="layer-4-cognitive-feedback-layer-user-interpretation">Layer 4 --- Cognitive Feedback Layer (User Interpretation)<a class="headerlink" href="#layer-4-cognitive-feedback-layer-user-interpretation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Context validation, action confirmation, error correction decisions,
+  navigation strategy execution</li>
+</ul>
+<h1 id="3-core-design-principles">3. Core Design Principles<a class="headerlink" href="#3-core-design-principles" title="Permanent link">&para;</a></h1>
+<h2 id="31-deterministic-navigation">3.1 Deterministic Navigation<a class="headerlink" href="#31-deterministic-navigation" title="Permanent link">&para;</a></h2>
+<p>Navigation must be predictable. The following rules apply to
+user-defined shortcuts:</p>
+<ul>
+<li>
+<p>Same shortcut always performs the same function.</p>
+</li>
+<li>
+<p>No user-level context-dependent reassignment.</p>
+</li>
+</ul>
+<hr />
+<p><strong>NOTE</strong>   VS Code has built-in context-sensitive keybinding overrides
+             (e.g. F8 behaves differently in the editor vs. the Problems
+             panel). This principle applies to user-defined shortcuts
+             only, not to VS Code's native context bindings. Operators
+             should be aware of built-in context bindings when
+             configuring custom shortcuts.</p>
+<hr />
+<h2 id="32-minimal-context-switching">3.2 Minimal Context Switching<a class="headerlink" href="#32-minimal-context-switching" title="Permanent link">&para;</a></h2>
+<p>Reduce transitions between UI states. Allowed transitions: Editor ↔
+Terminal, Editor ↔ Explorer, Editor ↔ Problems, Editor ↔ Source Control.
+Avoid deep nested Explorer traversal and excessive tab cycling.</p>
+<h2 id="33-speech-load-control">3.3 Speech Load Control<a class="headerlink" href="#33-speech-load-control" title="Permanent link">&para;</a></h2>
+<p>NVDA output must remain actionable. Avoid unnecessary repeated
+announcements, interrupt speech only during transitions or errors, and
+keep terminal output segmented.</p>
+<h2 id="34-direct-command-preference">3.4 Direct Command Preference<a class="headerlink" href="#34-direct-command-preference" title="Permanent link">&para;</a></h2>
+<p>Prefer commands over UI navigation. Hierarchy:</p>
+<ol>
+<li>
+<p>Command Palette (Ctrl + Shift + P)</p>
+</li>
+<li>
+<p>Quick Open (Ctrl + P)</p>
+</li>
+<li>
+<p>Direct shortcut commands</p>
+</li>
+<li>
+<p>UI navigation (fallback only)</p>
+</li>
+</ol>
+<h1 id="4-environment-configuration">4. Environment Configuration<a class="headerlink" href="#4-environment-configuration" title="Permanent link">&para;</a></h1>
+<h2 id="41-software-versions-pinned">4.1 Software Versions (Pinned)<a class="headerlink" href="#41-software-versions-pinned" title="Permanent link">&para;</a></h2>
+<hr />
+<p><strong>Component</strong>    <strong>Required          </strong>Notes<strong>
+                   Version</strong>           </p>
+<hr />
+<p>Windows          Windows 11 22H2 or  Earlier versions have known focus
+                   later               tracking regressions</p>
+<p>NVDA             2023.3.x or later   Tested against 2023.3.4; earlier
+                                       versions may misreport VS Code
+                                       roles</p>
+<p>Visual Studio    1.85.x or later     Accessibility improvements in 1.85
+  Code                                 are load-bearing for this spec</p>
+<p>PowerShell       7.x or later        Used for terminal workflow;
+                                       Windows PowerShell 5.1 is a
+                                       fallback</p>
+<p>Git              2.40 or later       Required for Git workflow section</p>
+<p>Browser          Chrome 120+ or      Required for documentation
+                   Firefox 121+        workflow</p>
+<hr />
+<hr />
+<p><strong>⚠          Do not deploy this specification against untested software
+  CRITICAL</strong>   versions. NVDA's screen reader mode in VS Code is sensitive
+               to both NVDA and VS Code release changes. Always run the
+               smoke test in Section 13 after any software update.</p>
+<hr />
+<h2 id="42-input-mode">4.2 Input Mode<a class="headerlink" href="#42-input-mode" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Keyboard-only operation enforced. No mouse dependency at any layer.</li>
+</ul>
+<h1 id="5-vs-code-accessibility-configuration">5. VS Code Accessibility Configuration<a class="headerlink" href="#5-vs-code-accessibility-configuration" title="Permanent link">&para;</a></h1>
+<p>Apply the following settings to settings.json (accessible via Command
+Palette: Preferences: Open User Settings (JSON)):</p>
+<blockquote>
+<p>\"editor.accessibilitySupport\": \"on\",</p>
+<p>\"terminal.integrated.accessibilitySupport\": \"on\",</p>
+<p>\"terminal.integrated.screenReaderMode\": true,</p>
+<p>\"workbench.list.keyboardNavigation\": \"simple\",</p>
+<p>\"editor.tabSize\": 4,</p>
+<p>\"editor.wordWrap\": \"off\",</p>
+<p>\"editor.bracketPairColorization.enabled\": true,</p>
+<p>\"editor.stickyScroll.enabled\": false,</p>
+<p>\"editor.cursorSurroundingLines\": 3,</p>
+<p>\"editor.accessibilityPageSize\": 100</p>
+</blockquote>
+<hr />
+<p><strong>NOTE</strong>   \"terminal.integrated.screenReaderMode\": true is distinct
+             from accessibilitySupport and directly improves NVDA
+             terminal output. VS Code may also prompt to enable screen
+             reader optimized mode on first launch; always confirm this
+             prompt. Declining it will silently degrade accessibility
+             behavior.</p>
+<hr />
+<h2 id="functional-impact">Functional Impact<a class="headerlink" href="#functional-impact" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Improves focus tracking and stabilizes cursor context</p>
+</li>
+<li>
+<p>Reduces navigation noise and enhances terminal readability</p>
+</li>
+<li>
+<p>Enables screen reader optimized rendering in the integrated terminal</p>
+</li>
+</ul>
+<h1 id="6-nvda-configuration-model">6. NVDA Configuration Model<a class="headerlink" href="#6-nvda-configuration-model" title="Permanent link">&para;</a></h1>
+<h2 id="61-speech-behavior">6.1 Speech Behavior<a class="headerlink" href="#61-speech-behavior" title="Permanent link">&para;</a></h2>
+<hr />
+<p><strong>Setting</strong>         <strong>Recommended       </strong>Rationale<strong>
+                      Value</strong>             </p>
+<hr />
+<p>Punctuation level   Moderate            Reads code operators without
+                                          overwhelming prose</p>
+<p>Symbol level        Some or Most        Adjust per task; Most for code
+                                          review, Some for reading docs.
+                                          Configure at: NVDA menu &gt;
+                                          Preferences &gt; Speech &gt; Symbol
+                                          level.</p>
+<p>Typing echo         Characters + Words  Confirms both individual key
+                                          input and completed words</p>
+<p>Speech interrupt on Enabled             Stops ongoing speech when the
+  typing                                  user begins typing</p>
+<p>Speech interrupt on Enabled             Clears speech queue on command
+  Enter                                   execution</p>
+<hr />
+<h2 id="62-navigation-modes">6.2 Navigation Modes<a class="headerlink" href="#62-navigation-modes" title="Permanent link">&para;</a></h2>
+<h3 id="focus-mode">Focus Mode<a class="headerlink" href="#focus-mode" title="Permanent link">&para;</a></h3>
+<p>Used in VS Code editor, terminal, and form inputs. Provides linear
+speech output with real-time focus tracking. Keystrokes are passed
+directly to the application.</p>
+<h3 id="browse-mode">Browse Mode<a class="headerlink" href="#browse-mode" title="Permanent link">&para;</a></h3>
+<p>Used in documentation pages and web content. Enables structural
+navigation (headings, landmarks) and non-linear reading. Keystrokes are
+intercepted by NVDA as navigation commands.</p>
+<h3 id="object-navigation-mode">Object Navigation Mode<a class="headerlink" href="#object-navigation-mode" title="Permanent link">&para;</a></h3>
+<p>Used for UI inspection and inaccessible components. Provides
+hierarchical UI traversal.</p>
+<h3 id="switching-between-modes">Switching Between Modes<a class="headerlink" href="#switching-between-modes" title="Permanent link">&para;</a></h3>
+<p><strong>Toggle shortcut: NVDA + Space</strong>. NVDA announces the active mode when
+toggled.</p>
+<hr />
+<p><strong>⚠          If NVDA enters Browse Mode inside VS Code, keystrokes are
+  CRITICAL</strong>   intercepted by NVDA instead of being passed to VS Code. The
+               editor will appear unresponsive. Always confirm Focus Mode
+               is active when working in the editor or terminal. If the
+               editor does not respond to typing, press NVDA + Space to
+               return to Focus Mode.</p>
+<hr />
+<h2 id="63-review-cursor-mode">6.3 Review Cursor Mode<a class="headerlink" href="#63-review-cursor-mode" title="Permanent link">&para;</a></h2>
+<p>Used for terminal output inspection, large logs, and error analysis. The
+review cursor decouples reading position from the application focus,
+allowing inspection of prior output without disturbing the active
+cursor.</p>
+<h2 id="64-known-nvda-vs-code-key-conflicts">6.4 Known NVDA / VS Code Key Conflicts<a class="headerlink" href="#64-known-nvda-vs-code-key-conflicts" title="Permanent link">&para;</a></h2>
+<hr />
+<p><strong>Key</strong>    <strong>NVDA Default     </strong>VS Code Action<strong> </strong>Resolution<strong>
+             Action</strong>                              </p>
+<hr />
+<p>NVDA + F7  Elements list      None (VS Code does No conflict; safe to
+             dialog             not use this key)  use</p>
+<p>Insert     NVDA modifier key  Toggle overtype    Use Ctrl+Shift+P to
+                                mode in editor     toggle overtype; do
+                                                   not press Insert alone
+                                                   in editor</p>
+<p>Ctrl +     Move review cursor Move editor cursor Ensure Focus Mode is
+  Home       to top of document to top of file     active; in Browse Mode
+             (Browse Mode)                         this navigates the
+                                                   virtual buffer, not
+                                                   the file</p>
+<p>F1         No default NVDA    Open Command       No conflict; F1 passes
+             action             Palette            through to VS Code in
+                                (alternative)      Focus Mode</p>
+<p>Ctrl + F4  No default NVDA    Close active       No conflict
+             action             editor tab         </p>
+<p>Ctrl + W   No default NVDA    Close active       No conflict in Focus
+             action             editor tab         Mode; in Browse Mode
+                                                   may trigger NVDA
+                                                   object navigation on
+                                                   some setups --- test
+                                                   before relying on it</p>
+<hr />
+<h1 id="7-core-workflow-specifications">7. Core Workflow Specifications<a class="headerlink" href="#7-core-workflow-specifications" title="Permanent link">&para;</a></h1>
+<h2 id="71-project-initialization-workflow">7.1 Project Initialization Workflow<a class="headerlink" href="#71-project-initialization-workflow" title="Permanent link">&para;</a></h2>
+<p><strong>Objective:</strong> Open a workspace with minimal navigation overhead.</p>
+<ol>
+<li>
+<p>Open Start Menu and launch Visual Studio Code.</p>
+</li>
+<li>
+<p>Execute the Open Folder chord: hold Ctrl, press K, then press O
+    while still holding Ctrl. Do not release Ctrl between the two keys.</p>
+</li>
+<li>
+<p>Select project directory from the dialog.</p>
+</li>
+<li>
+<p>Confirm with Enter.</p>
+</li>
+</ol>
+<p><strong>Output state:</strong> Explorer view focused on project root.</p>
+<hr />
+<p><strong>NOTE</strong>   The chord Ctrl+K, Ctrl+O requires holding Ctrl continuously
+             through both keypresses. Releasing Ctrl between K and O will
+             not trigger the command on most systems. If the command does
+             not execute, use the Command Palette: type File: Open
+             Folder.</p>
+<hr />
+<h2 id="72-file-navigation-workflow">7.2 File Navigation Workflow<a class="headerlink" href="#72-file-navigation-workflow" title="Permanent link">&para;</a></h2>
+<p><strong>Objective:</strong> Access files without Explorer tree traversal.</p>
+<ol>
+<li>
+<p>Press Ctrl + P to open Quick Open.</p>
+</li>
+<li>
+<p>Enter a filename fragment.</p>
+</li>
+<li>
+<p>Navigate results with arrow keys.</p>
+</li>
+<li>
+<p>Confirm selection with Enter.</p>
+</li>
+</ol>
+<h2 id="73-editing-workflow">7.3 Editing Workflow<a class="headerlink" href="#73-editing-workflow" title="Permanent link">&para;</a></h2>
+<p><strong>Objective:</strong> Maintain structural awareness during code editing.</p>
+<hr />
+<p><strong>Key</strong>                <strong>Action &amp; expected NVDA speech output</strong></p>
+<hr />
+<p>Arrow keys             Line navigation --- NVDA reads the full line
+                         text as the cursor moves up or down. Each line
+                         is announced once; blank lines are announced as
+                         "blank".</p>
+<p>Ctrl + Arrow           Word navigation --- NVDA announces each word as
+                         the cursor moves through it. Punctuation is read
+                         according to the configured punctuation level
+                         (Section 6.1).</p>
+<p>Ctrl + G               Go to line --- NVDA announces a small input
+                         prompt; type the line number and press Enter.
+                         NVDA then reads the target line content.</p>
+<p>Ctrl + F               Find in file --- NVDA announces the search
+                         toolbar. Results are highlighted silently; press
+                         Enter or F3 to cycle matches. NVDA reads the
+                         matched line on each navigation.</p>
+<p>Ctrl + Shift + O       Symbol picker --- NVDA announces "Go to Symbol"
+                         input field. As you type, NVDA announces each
+                         matching symbol name in the filtered list. Press
+                         arrow keys to navigate; NVDA reads each symbol
+                         and its type (function, class, variable).</p>
+<p>Ctrl + T               Workspace symbol search --- same speech behavior
+                         as Ctrl+Shift+O but searches all open files.
+                         NVDA announces the file name alongside each
+                         symbol result, helping distinguish matches
+                         across files.</p>
+<hr />
+<hr />
+<p><strong>NOTE</strong>   Multi-cursor editing (Ctrl+Alt+Down to add cursor below;
+             Ctrl+D to select next match) is not recommended in this
+             accessibility workflow. NVDA does not reliably announce
+             secondary cursor positions, and edits at multiple cursors
+             produce simultaneous speech output that is difficult to
+             parse. Use find-and-replace (Ctrl+H) or the Command Palette
+             refactor commands as accessible alternatives for
+             multi-location edits.</p>
+<hr />
+<h2 id="74-terminal-workflow">7.4 Terminal Workflow<a class="headerlink" href="#74-terminal-workflow" title="Permanent link">&para;</a></h2>
+<p><strong>Objective:</strong> Execute and inspect command output efficiently.</p>
+<ol>
+<li>
+<p>Open terminal via Command Palette: Ctrl + Shift + P, then type
+    Terminal: Create New Terminal.</p>
+</li>
+<li>
+<p>Execute command.</p>
+</li>
+<li>
+<p>Monitor NVDA speech output.</p>
+</li>
+<li>
+<p>For large output, switch to review cursor mode to inspect without
+    disrupting active cursor.</p>
+</li>
+</ol>
+<hr />
+<p><strong>NOTE</strong>   The backtick shortcut (Ctrl + `) is layout-dependent and
+             unreliable on non-US keyboards. Per the Direct Command
+             Preference principle (Section 3.4), the Command Palette
+             method is primary. The backtick shortcut may be used as a
+             secondary method on confirmed US keyboard layouts only.</p>
+<hr />
+<h2 id="75-error-navigation-workflow">7.5 Error Navigation Workflow<a class="headerlink" href="#75-error-navigation-workflow" title="Permanent link">&para;</a></h2>
+<p><strong>Objective:</strong> Resolve issues using structured traversal.</p>
+<ol>
+<li>
+<p>Run build or execution task.</p>
+</li>
+<li>
+<p>Navigate problems: F8 (next problem), Shift + F8 (previous problem).</p>
+</li>
+<li>
+<p>Review NVDA announcement of problem description and location.</p>
+</li>
+<li>
+<p>Press Enter on the problem to jump to the source line.</p>
+</li>
+<li>
+<p>Apply fix, save with Ctrl + S, re-run execution.</p>
+</li>
+</ol>
+<h2 id="76-git-workflow">7.6 Git Workflow<a class="headerlink" href="#76-git-workflow" title="Permanent link">&para;</a></h2>
+<p><strong>Objective:</strong> Perform version control actions via keyboard.</p>
+<ol>
+<li>
+<p>Open Source Control: Ctrl + Shift + G.</p>
+</li>
+<li>
+<p>Review changes list with arrow keys.</p>
+</li>
+<li>
+<p>Stage specific files using the Stage Changes action, or stage all
+    with Git: Stage All Changes via Command Palette.</p>
+</li>
+<li>
+<p>Enter commit message in the message field.</p>
+</li>
+<li>
+<p>Commit using Command Palette:</p>
+<ol>
+<li>
+<p>Use Git: Commit Staged to commit only staged changes
+    (recommended default).</p>
+</li>
+<li>
+<p>Use Git: Commit All to commit all tracked changes regardless of
+    staging.</p>
+</li>
+</ol>
+</li>
+</ol>
+<hr />
+<p><strong>⚠         Git: Commit All will include unstaged changes. This can
+  WARNING</strong>   result in unintentional commits. Use Git: Commit Staged as
+              the default. Only use Git: Commit All when you have
+              explicitly verified all tracked changes should be committed.</p>
+<hr />
+<h2 id="77-documentation-workflow">7.7 Documentation Workflow<a class="headerlink" href="#77-documentation-workflow" title="Permanent link">&para;</a></h2>
+<p><strong>Objective:</strong> Efficient reference access during development.</p>
+<ol>
+<li>
+<p>Open browser.</p>
+</li>
+<li>
+<p>Verify NVDA is in Browse Mode (press NVDA + Space to toggle if
+    needed; NVDA will announce the mode).</p>
+</li>
+<li>
+<p>Navigate using heading keys (H / Shift+H) or search (Ctrl + F).</p>
+</li>
+<li>
+<p>Switch back to VS Code with Alt + Tab.</p>
+</li>
+<li>
+<p>Verify NVDA is in Focus Mode in the VS Code editor before editing
+    (NVDA + Space if needed).</p>
+</li>
+</ol>
+<p><strong>NVDA Browse Mode controls:</strong></p>
+<ul>
+<li>
+<p>H / Shift+H: next / previous heading</p>
+</li>
+<li>
+<p>D / Shift+D: next / previous landmark</p>
+</li>
+<li>
+<p>Ctrl + F: search in page</p>
+</li>
+</ul>
+<hr />
+<p><strong>NOTE</strong>   H, Shift+H, and D only function when NVDA is in Browse Mode.
+             These are NVDA virtual buffer commands and are not passed to
+             the browser. If heading navigation does not respond, confirm
+             Browse Mode is active.</p>
+<hr />
+<h1 id="8-focus-management-model">8. Focus Management Model<a class="headerlink" href="#8-focus-management-model" title="Permanent link">&para;</a></h1>
+<h2 id="81-primary-focus-zones">8.1 Primary Focus Zones<a class="headerlink" href="#81-primary-focus-zones" title="Permanent link">&para;</a></h2>
+<hr />
+<p><strong>Zone</strong>      <strong>VS Code Shortcut</strong>   <strong>Function</strong></p>
+<hr />
+<p>Editor        Ctrl + 1               Code editing --- primary work area</p>
+<p>Explorer      Ctrl + Shift + E       File structure navigation</p>
+<p>Terminal      Terminal: Create New   Command execution
+                Terminal (Command    <br />
+                Palette)               </p>
+<p>Problems      Ctrl + Shift + M       Error and warning analysis</p>
+<p>Source        Ctrl + Shift + G       Git operations
+  Control                              </p>
+<hr />
+<h2 id="82-focus-recovery-protocol">8.2 Focus Recovery Protocol<a class="headerlink" href="#82-focus-recovery-protocol" title="Permanent link">&para;</a></h2>
+<h3 id="recovery-from-in-app-focus-loss">Recovery from in-app focus loss<a class="headerlink" href="#recovery-from-in-app-focus-loss" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Press Ctrl + Shift + P to open Command Palette (always accessible
+    regardless of focus state).</p>
+</li>
+<li>
+<p>Re-anchor to known context using the shortcuts in Section 8.1.</p>
+</li>
+</ol>
+<h3 id="recovery-from-window-level-focus-loss">Recovery from window-level focus loss<a class="headerlink" href="#recovery-from-window-level-focus-loss" title="Permanent link">&para;</a></h3>
+<p>If a system dialog, OS notification, or another application has stolen
+focus away from VS Code entirely:</p>
+<ol>
+<li>
+<p>Press Alt + Tab to cycle back to VS Code.</p>
+</li>
+<li>
+<p>Once VS Code window is active, follow the in-app recovery steps
+    above.</p>
+</li>
+<li>
+<p>Verify NVDA mode (Focus Mode expected) before resuming editing.</p>
+</li>
+</ol>
+<hr />
+<p><strong>NOTE</strong>   Window-level focus loss is common when system dialogs appear
+             (e.g. Windows Update, antivirus notifications). This is
+             distinct from in-app focus loss and requires Alt + Tab as
+             the first recovery step, not the Command Palette.</p>
+<hr />
+<h1 id="9-performance-constraints">9. Performance Constraints<a class="headerlink" href="#9-performance-constraints" title="Permanent link">&para;</a></h1>
+<h2 id="91-speech-load-constraints">9.1 Speech Load Constraints<a class="headerlink" href="#91-speech-load-constraints" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Avoid continuous terminal streaming output that cannot be interrupted.</p>
+</li>
+<li>
+<p>Prevent long unbroken speech sequences by segmenting terminal output.</p>
+</li>
+<li>
+<p>Use Ctrl + C to interrupt running terminal processes that produce
+  excessive output.</p>
+</li>
+</ul>
+<h2 id="92-context-switching-limits">9.2 Context Switching Limits<a class="headerlink" href="#92-context-switching-limits" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Avoid unnecessary tab proliferation; limit active editor count to the
+  minimum required.</p>
+</li>
+<li>
+<p>Close unused editor groups to reduce Ctrl+Tab cycling overhead.</p>
+</li>
+</ul>
+<h2 id="93-navigation-constraints">9.3 Navigation Constraints<a class="headerlink" href="#93-navigation-constraints" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Prefer direct commands over UI traversal at all times (Section 3.4).</p>
+</li>
+<li>
+<p>Avoid Explorer tree traversal deeper than 2 levels; use Quick Open
+  instead. Violations of these constraints correspond to documented
+  failure modes in Section 10 (Speech backlog, Navigation overload,
+  Context confusion).</p>
+</li>
+</ul>
+<h1 id="10-failure-modes-and-mitigation">10. Failure Modes and Mitigation<a class="headerlink" href="#10-failure-modes-and-mitigation" title="Permanent link">&para;</a></h1>
+<hr />
+<p><strong>Failure       </strong>Cause<strong>      </strong>Symptoms<strong>       </strong>Mitigation<strong>
+  Mode</strong>                                            </p>
+<hr />
+<p>Speech backlog  Excess         NVDA speech queue  Interrupt speech (Shift);
+                  terminal       fills; output      segment logs; use review
+                  output         delayed or         cursor
+                                 truncated          </p>
+<p>In-app focus    Rapid panel    NVDA announces     Ctrl + Shift + P then
+  lost            switching      incorrect or empty re-anchor (Section 8.2)
+                                 context            </p>
+<p>Window focus    OS dialog or   VS Code does not   Alt + Tab to VS Code,
+  lost            notification   respond to         then in-app recovery
+                                 keystrokes         </p>
+<p>Navigation      Explorer tree  Many keystrokes to Use Ctrl + P (Quick Open)
+  overload        traversal      reach file; NVDA   instead of Explorer
+                                 announces deep   <br />
+                                 paths              </p>
+<p>Context         Multiple open  Unclear which file Limit open files; use
+  confusion       tabs           is active          Ctrl + Tab to audit open
+                                                    editors</p>
+<p>NVDA silence in NVDA entered   Typing produces no Press NVDA + Space to
+  editor          Browse Mode    NVDA speech;       return to Focus Mode;
+                  inside VS Code editor appears     verify announcement
+                                 unresponsive       </p>
+<p>NVDA            VS Code        Editor behavior    Run smoke test (Section
+  accessibility   extension      degrades silently  13) after any extension
+  mode reset      install or     after extension    change; re-apply Section
+                  update         activity           5 settings if needed</p>
+<p>NVDA crash      NVDA process   All speech stops;  Restart NVDA via Windows
+  mid-session     failure        no screen reader   shortcut (Ctrl + Alt + N
+                                 feedback           if configured) or via
+                                                    Start Menu; VS Code state
+                                                    is preserved</p>
+<hr />
+<h1 id="11-pre-flight-environment-checklist">11. Pre-Flight Environment Checklist<a class="headerlink" href="#11-pre-flight-environment-checklist" title="Permanent link">&para;</a></h1>
+<p>Complete this checklist before beginning development in a new or updated
+environment. Each item must be verified before the environment is
+considered production-ready.</p>
+<h2 id="111-software-version-verification">11.1 Software Version Verification<a class="headerlink" href="#111-software-version-verification" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>NVDA version is 2023.3.x or later (Help &gt; About in NVDA menu)</p>
+</li>
+<li>
+<p>VS Code version is 1.85.x or later (Help &gt; About in VS Code)</p>
+</li>
+<li>
+<p>Windows 11 22H2 or later confirmed (Settings &gt; System &gt; About)</p>
+</li>
+</ul>
+<h2 id="112-vs-code-settings-verification">11.2 VS Code Settings Verification<a class="headerlink" href="#112-vs-code-settings-verification" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>editor.accessibilitySupport is set to \"on\" in settings.json</p>
+</li>
+<li>
+<p>terminal.integrated.screenReaderMode is set to true</p>
+</li>
+<li>
+<p>workbench.list.keyboardNavigation is set to \"simple\"</p>
+</li>
+<li>
+<p>VS Code screen reader optimized mode prompt was accepted (check
+  notification area on first launch)</p>
+</li>
+</ul>
+<h2 id="113-nvda-configuration-verification">11.3 NVDA Configuration Verification<a class="headerlink" href="#113-nvda-configuration-verification" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>NVDA is running and speech is audible</p>
+</li>
+<li>
+<p>Punctuation level is set to Moderate in NVDA &gt; Preferences &gt; Speech</p>
+</li>
+<li>
+<p>Focus Mode is active when VS Code editor is focused (NVDA + Space to
+  toggle, NVDA will announce mode)</p>
+</li>
+</ul>
+<h1 id="12-degraded-mode-and-fallback-guidance">12. Degraded Mode and Fallback Guidance<a class="headerlink" href="#12-degraded-mode-and-fallback-guidance" title="Permanent link">&para;</a></h1>
+<p>This section defines behavior when the primary accessibility stack is
+partially unavailable.</p>
+<h2 id="121-nvda-crash-or-unavailability">12.1 NVDA Crash or Unavailability<a class="headerlink" href="#121-nvda-crash-or-unavailability" title="Permanent link">&para;</a></h2>
+<p>If NVDA crashes or becomes unresponsive during a session:</p>
+<ol>
+<li>
+<p>Do not close VS Code. File state is preserved.</p>
+</li>
+<li>
+<p>Restart NVDA using the keyboard shortcut Ctrl + Alt + N (if
+    configured) or navigate to the NVDA entry in the Start Menu using
+    Windows keyboard navigation (Win key, type NVDA, Enter).</p>
+</li>
+<li>
+<p>Once NVDA is running, press NVDA + Space to confirm Focus Mode is
+    active.</p>
+</li>
+<li>
+<p>Return to VS Code with Alt + Tab.</p>
+</li>
+<li>
+<p>Run the smoke test from Section 13 before resuming complex work.</p>
+</li>
+</ol>
+<hr />
+<p><strong>NOTE</strong>   Configure a global NVDA restart shortcut (Ctrl + Alt + N) in
+             NVDA Preferences &gt; Input Gestures before beginning
+             production use. Without this, restarting NVDA after a crash
+             requires mouse interaction or sighted assistance.</p>
+<hr />
+<h2 id="122-vs-code-accessibility-mode-silent-reset">12.2 VS Code Accessibility Mode Silent Reset<a class="headerlink" href="#122-vs-code-accessibility-mode-silent-reset" title="Permanent link">&para;</a></h2>
+<p>VS Code may silently disable screen reader optimized mode after
+installing or updating extensions. Symptoms include degraded focus
+announcements and reduced terminal readability.</p>
+<ol>
+<li>
+<p>Open Command Palette (Ctrl + Shift + P).</p>
+</li>
+<li>
+<p>Run Preferences: Open User Settings (JSON).</p>
+</li>
+<li>
+<p>Verify editor.accessibilitySupport is still \"on\" and
+    terminal.integrated.screenReaderMode is still true.</p>
+</li>
+<li>
+<p>If either setting has been removed or changed, reapply the full
+    configuration from Section 5.</p>
+</li>
+<li>
+<p>Restart VS Code (Command Palette: Developer: Reload Window).</p>
+</li>
+</ol>
+<h2 id="123-single-sense-fallback-no-audio">12.3 Single-Sense Fallback (No Audio)<a class="headerlink" href="#123-single-sense-fallback-no-audio" title="Permanent link">&para;</a></h2>
+<p>If audio output is unavailable (hardware failure, system audio muted):</p>
+<ul>
+<li>
+<p>NVDA supports braille output if a braille display is configured.
+  Workflows remain unchanged.</p>
+</li>
+<li>
+<p>Without audio or braille, keyboard-only operation remains functional
+  for VS Code commands, but no accessibility feedback is available.
+  Before deferring: press Ctrl+S to save the active file, and press
+  Ctrl+Shift+G to check for unstaged changes. Then defer work and
+  restore audio before proceeding.</p>
+</li>
+</ul>
+<h1 id="13-accessibility-smoke-test">13. Accessibility Smoke Test<a class="headerlink" href="#13-accessibility-smoke-test" title="Permanent link">&para;</a></h1>
+<p>Run this test after initial setup, after any software update, and after
+any extension install or removal. The test takes approximately five
+minutes. All steps must pass before the environment is considered
+production-ready.</p>
+<hr />
+<p><strong>Test   </strong>Action<strong>                </strong>Expected NVDA Output<strong>    </strong>Pass /
+  ID<strong>                                                           Fail</strong></p>
+<hr />
+<p>T01      Open VS Code. Ensure NVDA NVDA announces VS Code    <br />
+           is running.               window title.               </p>
+<p>T02      Press Ctrl + Shift + P.   NVDA announces \'Command  <br />
+                                     Palette\' or input field.   </p>
+<p>T03      Type \'new file\' and     NVDA announces file name or 
+           press Enter to create a   editor context.           <br />
+           new file.                                             </p>
+<p>T04      Type a line of code (e.g. NVDA echoes characters    <br />
+           console.log(\'test\')).   and/or words as typed.      </p>
+<p>T05      Press Arrow Up and Arrow  NVDA reads each line as the 
+           Down.                     cursor moves.               </p>
+<p>T06      Press NVDA + Space.       NVDA announces \'Browse   <br />
+                                     mode\' or \'Focus mode\'.   </p>
+<p>T07      Press NVDA + Space again. NVDA announces the opposite 
+                                     mode to T06.                </p>
+<p>T08      Open terminal via Command NVDA announces terminal   <br />
+           Palette: Terminal: Create panel or prompt.          <br />
+           New Terminal.                                         </p>
+<p>T09      Type \'echo hello\' and   NVDA announces \'hello\' or 
+           press Enter.              terminal output.            </p>
+<p>T10      Press Ctrl + Shift + G to NVDA announces \'Source   <br />
+           open Source Control.      Control\' panel.            </p>
+<p>T11      Press F8 in the editor.   NVDA announces a problem or 
+                                     \'No problems\'.            </p>
+<p>T12      Press Ctrl + P and type a NVDA announces Quick Open <br />
+           filename fragment.        results list.               </p>
+<hr />
+<hr />
+<p><strong>⚠        If any test step fails, do not proceed with production use.
+  NOTICE</strong>   Diagnose using the Failure Modes table (Section 10) and the
+             Degraded Mode guidance (Section 12). Document all failures
+             and resolutions in the change control log (Appendix C).
+             Record the tester name and test date in the change control
+             log (Appendix C) each time this smoke test is run.</p>
+<hr />
+<h1 id="14-system-outcomes">14. System Outcomes<a class="headerlink" href="#14-system-outcomes" title="Permanent link">&para;</a></h1>
+<p>When applied correctly and verified via the smoke test, this
+specification produces:</p>
+<ul>
+<li>
+<p>Reduced navigation overhead through command-first interaction</p>
+</li>
+<li>
+<p>Stable focus tracking with predictable NVDA speech feedback</p>
+</li>
+<li>
+<p>Faster error resolution cycles through structured problem navigation</p>
+</li>
+<li>
+<p>Lower cognitive load during coding through deterministic keyboard
+  mapping</p>
+</li>
+<li>
+<p>Consistent keyboard-only operation at all layers</p>
+</li>
+<li>
+<p>Recoverable state in all documented failure modes</p>
+</li>
+</ul>
+<h1 id="15-conclusion">15. Conclusion<a class="headerlink" href="#15-conclusion" title="Permanent link">&para;</a></h1>
+<p>This architecture defines a structured accessibility system built on
+deterministic navigation, controlled speech feedback, layered
+interaction design, and verifiable configuration. The system depends on
+consistent keyboard mapping, stable VS Code focus behavior, NVDA mode
+awareness, and command-first interaction patterns.</p>
+<p>Unlike earlier drafts, this production version includes version pinning,
+pre-flight verification, a smoke test procedure, known key conflict
+documentation, and degraded mode guidance. These additions close the gap
+between a reference document and an operationally complete
+specification.</p>
+<h1 id="appendix-a-keyboard-shortcut-quick-reference">Appendix A --- Keyboard Shortcut Quick Reference<a class="headerlink" href="#appendix-a-keyboard-shortcut-quick-reference" title="Permanent link">&para;</a></h1>
+<p>Consolidated reference for all shortcuts used in this specification.
+Print or save separately for quick access.</p>
+<h2 id="vs-code-shortcuts">VS Code Shortcuts<a class="headerlink" href="#vs-code-shortcuts" title="Permanent link">&para;</a></h2>
+<hr />
+<p><strong>Shortcut</strong>          <strong>Action</strong>                         <strong>Section</strong></p>
+<hr />
+<p>Ctrl + Shift + P      Command Palette (primary command   3.4
+                        interface)                         </p>
+<p>Ctrl + P              Quick Open (file navigation)       7.2</p>
+<p>Ctrl + K, Ctrl + O    Open Folder (hold Ctrl through     7.1
+                        both keys)                         </p>
+<p>Ctrl + 1              Focus Editor                       8.1</p>
+<p>Ctrl + Shift + E      Focus Explorer                     8.1</p>
+<p>Ctrl + Shift + M      Focus Problems panel               8.1</p>
+<p>Ctrl + Shift + G      Focus Source Control               7.6</p>
+<p>Ctrl + `             Open Terminal (US layout only; use 7.4
+                        Command Palette on other layouts)  </p>
+<p>Ctrl + G              Jump to line number                7.3</p>
+<p>Ctrl + F              Search in file                     7.3</p>
+<p>Ctrl + Shift + O      Go to symbol in file               7.3</p>
+<p>Ctrl + T              Go to symbol in workspace          7.3</p>
+<p>Ctrl + S              Save file                          7.5</p>
+<p>F8                    Next problem                       7.5</p>
+<p>Shift + F8            Previous problem                   7.5</p>
+<p>Alt + Tab             Switch application (window focus   8.2
+                        recovery)                          </p>
+<hr />
+<h2 id="nvda-shortcuts">NVDA Shortcuts<a class="headerlink" href="#nvda-shortcuts" title="Permanent link">&para;</a></h2>
+<hr />
+<p><strong>Shortcut</strong>          <strong>Action</strong>                         <strong>Section</strong></p>
+<hr />
+<p>NVDA + Space          Toggle Focus Mode / Browse Mode    6.2</p>
+<p>NVDA + F7             Elements list dialog (safe in VS   6.4
+                        Code --- no conflict)              </p>
+<p>H / Shift + H         Next / previous heading (Browse    7.7
+                        Mode only)                         </p>
+<p>D / Shift + D         Next / previous landmark (Browse   7.7
+                        Mode only)                         </p>
+<p>Ctrl + Alt + N        Restart NVDA (requires prior       12.1
+                        configuration in Input Gestures)   </p>
+<p>Shift                 Interrupt current speech output    10</p>
+<hr />
+<h1 id="appendix-b-vs-code-settings-reference">Appendix B --- VS Code Settings Reference<a class="headerlink" href="#appendix-b-vs-code-settings-reference" title="Permanent link">&para;</a></h1>
+<hr />
+<p><strong>Setting Key</strong>                            <strong>Required   </strong>Purpose<strong>
+                                             Value</strong>      </p>
+<hr />
+<p>editor.accessibilitySupport                \"on\"       Enables VS Code screen reader
+                                                          optimized mode for the editor</p>
+<p>terminal.integrated.accessibilitySupport   \"on\"       Enables basic terminal
+                                                          accessibility support</p>
+<p>terminal.integrated.screenReaderMode       true         Enables dedicated screen
+                                                          reader mode for integrated
+                                                          terminal output</p>
+<p>workbench.list.keyboardNavigation          \"simple\"   Prevents list filter mode
+                                                          from intercepting keystrokes</p>
+<p>editor.tabSize                             4            Consistent indentation for
+                                                          NVDA line reading</p>
+<p>editor.wordWrap                            \"off\"      Prevents wrapped lines from
+                                                          being read as separate lines
+                                                          by NVDA</p>
+<p>editor.bracketPairColorization.enabled     true         Enables bracket pair
+                                                          highlighting. Has no direct
+                                                          speech impact for screen
+                                                          reader users. Retained for
+                                                          environments used by sighted
+                                                          collaborators or low-vision
+                                                          users with some visual
+                                                          access. Blind-only
+                                                          environments may set this to
+                                                          false without affecting NVDA
+                                                          behavior.</p>
+<p>editor.stickyScroll.enabled                false        Disables sticky scroll header
+                                                          which can mislead focus
+                                                          announcements</p>
+<p>editor.cursorSurroundingLines              3            Keeps cursor context lines on
+                                                          screen to stabilize NVDA
+                                                          reading position</p>
+<p>editor.accessibilityPageSize               100          Controls how many lines NVDA
+                                                          can access per virtual page
+                                                          in the editor</p>
+<hr />
+<h1 id="appendix-c-document-control-log">Appendix C --- Document Control Log<a class="headerlink" href="#appendix-c-document-control-log" title="Permanent link">&para;</a></h1>
+<hr />
+<p><strong>Version</strong>   <strong>Date</strong>   <strong>Author</strong>   <strong>Change Summary</strong>                <strong>Reviewed By</strong></p>
+<hr />
+<p>0.1           January    Robert       Original specification drafted    ---
+                15, 2025   Mendoza                                        </p>
+<p>0.2           March 10,  Robert       Technical validation: 9 issues    ---
+                2025       Mendoza      identified (2 critical, 3       <br />
+                                        significant, 4 minor)             </p>
+<p>1.0           May 30,    Robert       All 9 issues corrected; 7         Robert Mendoza
+                2025       Mendoza      production gaps closed: version   (self-review)
+                                        pinning, pre-flight checklist,  <br />
+                                        smoke test, key conflict table, <br />
+                                        degraded mode guidance, shortcut<br />
+                                        appendix, settings reference      </p>
+<hr />
+<hr />
+<p><strong>NOTE</strong>   Complete the Author and Reviewed By fields before deploying
+             this document. All future revisions must be logged here with
+             a summary of changes. The smoke test (Section 13) must be
+             re-run and documented for any revision that modifies
+             Sections 4, 5, 6, or 7.</p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.instant", "navigation.tracking", "navigation.indexes", "toc.follow", "search.highlight", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
