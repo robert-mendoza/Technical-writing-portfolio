@@ -94,8 +94,8 @@ nav:
       - Technical Specification: technical-documentation.md
 
   - Documentation Standards:
-      - Documentation Workflow: documentation-workflow.md
       - Documentation Standards: documentation-standards.md
+      - Documentation Workflow: documentation-workflow.md
 
   - Resources:
       - Downloads: download.md
