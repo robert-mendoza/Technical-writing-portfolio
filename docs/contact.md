@@ -29,10 +29,10 @@ My portfolio demonstrates practical experience in developing documentation for e
 
 | Contact Method | Details |
 |---------------|---------|
-| **Email** | your.email@example.com |
-| **LinkedIn** | https://linkedin.com/in/your-profile |
-| **GitHub** | https://github.com/your-username |
-| **Documentation Portfolio** | https://your-username.github.io/portfolio |
+| **Email** | rbmendoza@gmail.com |
+| **LinkedIn** | https://www.linkedin.com/in/rbmendoza/ |
+| **GitHub** | https://github.com/robert-mendoza |
+| **Documentation Portfolio** | https://github.com/robert-mendoza/Technical-writing-portfolio |
 | **Location** | Dasmariñas, Cavite, Philippines |
 | **Work Preference** | Remote |
 
