@@ -186,6 +186,6 @@ Published documentation is periodically reviewed to:
 
 ## Related Documentation
 
-- [Documentation Standards](documentation-standards/)
-- [Downloads](downloads/)
-- [Change Log](changelog/)
+- [Documentation Standards](documentation-standards.md/)
+- [Downloads](downloads.md/)
+- [Change Log](changelog.md/)

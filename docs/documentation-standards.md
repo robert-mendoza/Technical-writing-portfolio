@@ -114,5 +114,5 @@ Documentation is validated using:
 
 ## Related Documentation
 
-- [Documentation Workflow](documentation-workflow/)
-- [Change Log](changelog/)
+- [Documentation Workflow](documentation-workflow.md/)
+- [Change Log](changelog.md/)

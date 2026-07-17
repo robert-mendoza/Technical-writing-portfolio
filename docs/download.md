@@ -64,5 +64,5 @@ Older revisions are maintained in the project history.
 
 ## Related Documentation
 
-- [Documentation Workflow](documentation-workflow/)
-- [Change Log](changelog/)
+- [Documentation Workflow](documentation-workflow.md/)
+- [Change Log](changelog.md/)

@@ -152,5 +152,5 @@ I look forward to hearing from you.
 
 ## Related Pages
 
-- [About](about/)
-- [Documentation Portfolio](index/)
+- [About](about.md/)
+- [Documentation Portfolio](index.md/)

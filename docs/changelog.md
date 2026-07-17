@@ -73,5 +73,5 @@ Example:
 
 ## Related Documentation
 
-- [Documentation Workflow](documentation-workflow/)
-- [Documentation Standards](documentation-standards/)
+- [Documentation Workflow](documentation-workflow.md/)
+- [Documentation Standards](documentation-standards.md/)
